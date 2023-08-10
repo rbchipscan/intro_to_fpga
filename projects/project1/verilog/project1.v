@@ -16,7 +16,7 @@ module button_counter(
 		if ( timer == 24'd1000000 )
 		begin
 			led[timer2] <= led[timer2] ^ 1'b1;// shift_value;
-			led[timer2-1] <= 1;// shift_value;
+//			led[timer2-1] <= 1;// shift_value;
 			timer2 <= timer2 + 1;
 			timer <= 0;
 
